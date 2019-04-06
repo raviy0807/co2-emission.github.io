@@ -1,0 +1,1 @@
+The visualization uses amChart.
