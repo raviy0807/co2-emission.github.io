@@ -39,7 +39,7 @@ var morphedPolygon;
 var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 polygonSeries.useGeodata = true;
 // specify which countries to include
-polygonSeries.include = ["US", "CH", "RU", "GB", "IN", "DD", "FR", "CA", "PL"]
+polygonSeries.include = ["US", "CN", "RU", "GB", "IN", "JP","DD", "FR", "CA", "PL"]
 
 // country area look and behavior
 var polygonTemplate = polygonSeries.mapPolygons.template;
@@ -326,8 +326,8 @@ var co2 = [
       ]
     },
     {
-      "id":"CH",
-      "title": "CHINA (MAINLAND)",
+      "id":"CN",
+      "title": "CHINA",
       "Proportion of Solid Fuel": 36420543,
       "Proportion of Liquid Fuel": 6546080,
       "Proportion of Gas Fuel": 870621,
